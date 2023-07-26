@@ -1,0 +1,369 @@
+
+.navbar-toggler-icon
+{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-toggler
+{
+    border: 1px solid white;
+}
+
+.navbar-toggler:focus 
+{
+    box-shadow: none;
+}
+
+.cname
+{
+    text-decoration: none;
+}
+header
+{
+    background-color: #1c1c1c;
+    height: 100vh;
+    position: relative;
+    border-bottom:none;
+  
+}
+nav
+{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+}
+nav .nav-item .nav-link
+{
+    font-size: 17.5px;
+}
+.cname
+{
+    font-size:2rem;
+    font-family: 'Tektur', cursive;
+    font-family: 'Orbitron', sans-serif;
+    word-spacing: 3px;
+    letter-spacing: 2px;
+}
+
+header .btn
+{
+    font-family: 'Pangolin', cursive;
+}
+header h1
+{
+    font-family: 'Pangolin', cursive;
+    font-weight:bolder;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+a,h1,p
+{
+    color: white;
+}
+/* p
+{
+    letter-spacing: 2px;
+} */
+header .row img,video
+{
+    width: 32rem;
+    border-radius: 4rem;
+    
+}
+
+.custom-shape-divider-bottom-1689436103 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1689436103 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 106px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1689436103 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* designing of the card */
+
+.serv
+{
+    font-family: 'Pangolin', cursive;
+    font-family: 'Abril Fatface', cursive;
+    /* letter-spacing: 1px; */
+}
+
+.card-2
+{
+    transform: scale(1.2);
+}
+.card-1
+{
+    transition: all 1.5s ease-in-out;
+}
+.card-1:hover
+{
+    transform: scale(1.2);
+}
+.card-3
+{
+    transition: all 1.5s ease-in-out;
+}
+.card-3:hover
+{
+    transform: scale(1.2);
+}
+
+.card a i
+{
+    font-size: 1rem;
+}
+
+section .container
+{
+    margin-bottom: 140px;
+}
+
+
+
+/* feedback styling  */
+
+.feedback img
+{
+    width: 80%;
+    border-radius: 3rem;
+    /* border: 0; */
+}
+.feedback
+{
+    background-color: #1c1c1c;
+    position: relative;
+    height: 100%;
+    margin-top: 22rem;
+}
+.feedback .single-box
+{
+    margin-top: 1rem;
+}
+.feedback h2
+{
+    padding: 5px;
+    margin-top: 5px;
+}
+.feedback h1
+{
+    font-family: 'Pangolin', cursive;
+    font-family: 'Abril Fatface', cursive;
+    /* letter-spacing: 2px; */
+    margin-top: 6rem;
+
+}
+.feedback p
+{
+    padding: 5px;
+}
+.feedback .container-fluid
+{
+    margin-top: 0rem;
+}
+
+.custom-shape-divider-top-1689507379 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1689507379 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-top-1689507379 .shape-fill {
+    fill: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* media Queries */
+
+
+@media (max-width: 1400px) 
+{
+    header .row img,video
+{
+    width: 35rem;
+}
+header .fuck
+{
+    margin-top: 30px;
+}
+}
+
+@media (max-width: 1200px) 
+{
+
+    .card-2
+{
+    transform: scale(1);
+}
+
+header
+{
+    height: 120vh;
+}
+
+
+    header .row img,video
+    {
+        width: 30rem;
+    }
+    header .fuck
+    {
+        margin-top: 100px;
+    }
+
+    header h1
+    {
+        font-size: 2.5rem;
+    }
+
+    .feedback img
+{
+    width: 100%;
+}
+
+}
+@media(max-width: 998px)
+{
+    header
+    {
+        height: 140vh;
+    }
+    .head_img
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header .row img
+    {
+        width: 25rem;
+        height: 25rem;
+        margin-bottom: 1rem;
+        margin-top: -75px;
+        text-align: center;
+      
+    }
+    header .row
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+
+    }
+    header .fuck
+    {
+        margin-top: 0px;
+    }
+    header .fuck2 p
+    {
+        text-align: center;
+    }
+    header .fuck2 h1
+    {
+        text-align: center;
+    }
+
+    nav
+    {
+        border-bottom: 0.1px solid white;
+    }
+}
+@media(max-width: 550px)
+{
+
+    header
+    {
+        height: 130vh;
+        
+    }
+
+    header .row img
+    {
+        width: 24rem;
+        height: 20rem;
+      
+    }
+}
+
+@media(max-width: 415px)
+{
+    header
+    {
+        height: 130vh;
+    }
+
+   
+
+    .feedback
+    {
+        overflow-x: hidden;
+        overflow-x: hidden;
+    }
+
+    section
+    {
+        overflow-x: hidden;
+    }
+    .carousel-inner p
+    {
+        display:none;
+    }
+}
+
+@media(max-width: 380px)
+{
+    header
+    {
+        height: 130vh;
+    }
+
+    header .row img
+    {
+        width: 15rem;
+        height: 17rem;
+      
+    }
+    .feedback img
+    {
+        width: 100%;
+    }
+}
+@media(max-width: 300px)
+{
+    header
+    {
+        height: 160vh;
+    }
+}
